@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'IRANSansXV';
+  src: url("../fonts/IRANSansX/IRANSansXV.woff") format("woff-variations"), url("../fonts/IRANSansX/IRANSansXV.woff") format("woff");
+  font-weight: 100 900;
+  font-display: fallback
+}
+@font-face {
+  font-family: IRANSansX;
+  src: url("../fonts/IRANSansX/IRANSansX-Regular.woff") format("woff")
+}
+@font-face {
+  font-family: IRANSansX;
+  src: url("../fonts/IRANSansX/IRANSansX-Bold.woff") format("woff");
+  font-weight: 700
+}
+body {
+  direction: rtl;
+  font-family: IRANSansXV, IRANSansX, Tahoma;
+  overflow-x: hidden;
+  font-weight: 400;
+}
+.bg {
+  background-image: url("images/ss 1.png");
+  height: 895px;
+  background-position: bottom;
+}
+.logo {
+  margin: 20px;
+}
+.menu {}
+.menu li {
+  float: right;
+  list-style: none;
+  margin: 37px 30px
+}
+.menu li a {
+  color: #FFFFFF !important;
+}
+.btnn {}
+.btnn a {
+  border: 1px solid #FFFFFF;
+  padding: 15px 65px;
+  margin: 20px;
+  float: left;
+  color: white !important;
+  border-radius: 20px 20px 20px 0px
+}
+.btnn a:hover {
+  background: #FFFFFF;
+  color: black !important;
+}
+.description {
+  margin-top: 300px;
+}
+.description p {
+  padding: 30px 0px;
+  line-height: 3;
+  color: #929292
+}
+.btnnn {}
+.btnnn a {
+  border: 1px solid #FF669F;
+  padding: 15px 65px;
+  margin: 20px;
+  float: left;
+  border-radius: 20px 0px 20px 20px
+}
+.btnnn a:hover {
+  background: #FF669F;
+  color: white !important;
+}
+.box-text {
+  background: url("images/box.png") no-repeat;
+  border-radius: 25px;
+  position: relative;
+  margin-top: -20px;
+  border: 1px solid #EEEEEE
+}
+.box-text p {
+  padding: 25px;
+  margin-top: 15px;
+}
+.cardd {
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+.flag {
+  position: relative;
+  margin-top: -25px;
+}
+.cardd h5 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.cardd li {
+  text-align: center;
+  color: #9E9E9E;
+  list-style: none;
+  padding: 8px 0;
+}
+.btnsell {
+  margin-top: 25px;
+}
+.btnsell a {
+  text-align: center;
+  background: linear-gradient(90deg, #4972F9 50%, #3B53C7 103.21%);
+  padding: 15px 35px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none
+}
+.moshtarian {
+  background: #F8F8F8;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  margin: 80px 0px
+}
+.moshtarian img {
+  margin: 25px;
+}
+.war {}
+.war img {
+  width: 48px;
+  height: 48px;
+  float: right;
+  position: relative;
+  margin-top: -15px;
+}
+.footers {
+  background: url("images/footer.png");
+  width: 100%;
+  height: 250px;
+}
+.footers a {
+  position: relative;
+  bottom: -220px;
+  right: 300px;
+}
+@media screen and (max-width:768px) {
+  .moshtarian {
+    display: none
+  }
+  .footers {
+    height: 268px;
+    margin-top: -146px
+  }
+  .footers a {
+    position: relative;
+    bottom: -159px;
+    right: 0;
+    padding: 30px
+  }
+  .description {
+    margin-top: 90px
+  }
+  .logo {
+    display: none
+  }
+  .menu li {
+    width: 100%;
+    margin: 37px 0;
+    text-align: center
+  }
+  .btnn a {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(90deg, #4972F9 50%, #3B53C7 103.21%);
+    margin: 20px 0
+  }
+  .btnnn a {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #fff
+  }
+  .description h1 {
+    text-align: center
+  }
+  .description p {
+    text-align: center
+  }
+	.menu li a {
+    border-radius: 15px;
+    background: linear-gradient(90deg,#4972F9 50%,#3B53C7 103.21%);
+    padding: 19px 110px;
+}
+}
